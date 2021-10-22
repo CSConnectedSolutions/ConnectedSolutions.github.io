@@ -6,6 +6,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  border-radius: 5px;
 }
 
 /* Style the topnav links */
@@ -23,6 +24,7 @@ body {
   background-color: #ddd;
   color: black;
 }
+
   * {
     box-sizing: border-box;
   }
