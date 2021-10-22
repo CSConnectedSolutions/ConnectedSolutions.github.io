@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+#SLIDE_BG {
+  /*width: fit-content;*/
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation-name: SLIDE_BG ;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out  ;
+  background-image: url(imgs/alumni.jpg);
+}
+
+@keyframes SLIDE_BG {
+  0%{
+    background-image: url(imgs/alumni.jpg);
+  }
+  25%{
+    background-image: url(imgs/alumni.jpg);
+  }
+  50%{
+    background-image: url(imgs/alumni.jpg);
+  }
+  75%{
+    background-image: url(imgs/alumni.jpg);
+  }
+  100%{
+    background-image: url(imgs/alumni.jpg);
+  }
+}
