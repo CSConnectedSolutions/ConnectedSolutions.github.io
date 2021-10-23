@@ -61,14 +61,14 @@ body {
   
   .navbar .menu li a {
     display: block;
-    color: #a6c6f8;
+    color: #f8ac9c;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   .navbar .menu li a:hover{
-    color: #a6c6f8;
+    color: #F05839;
     font-family: MuseoModerno, Bold;
   }
   
