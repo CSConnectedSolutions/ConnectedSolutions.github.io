@@ -41,17 +41,17 @@ body {
   width: 100%;
   background-color: rgba(230, 230, 230, 0.5);
   display: flexbox;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
-.navbar .max-width{
+.navbar .max-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.navbar .logo a{
+.navbar .logo a {
   float: left;
   font-family: MuseoModerno;
   font-size: 25px;
@@ -59,7 +59,7 @@ body {
   text-decoration: none;
 }
 
-.navbar .logo a span{
+.navbar .logo a span {
   color: #F05839;
 }
 
@@ -68,7 +68,6 @@ body {
     float: right;
     font-family: MuseoModerno;
     font-size: 15px;
-    display: inline-block;
   }
   
   .navbar .menu li a {
@@ -79,15 +78,31 @@ body {
     text-decoration: none;
   }
 
+  .navbar .menu li a span {
+    display: block;
+    color: #a6c6f8;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .navbar .menu li a span:hover {
+    color: #4D8DF0;
+    font-family: MuseoModerno;
+  }
+
   .navbar .menu li a:hover{
     color: #F05839;
     font-family: MuseoModerno;
   }
-  
-  #home:target, #services:target, #about:target, #projects:target, #contact:target{
-    color: #4D8DF0;
+
+  #services:target, #about:target, #projects:target, #contact:target{
+    color: #F05839;
   }
   
+  #home:target span{
+    color: #4D8DF0;
+  }
+
 /* Navbar End */
 
   .container {
