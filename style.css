@@ -1,14 +1,18 @@
 /* Fonts Start */
 
-@font-face {
-  font-family: MuseoModerno;
-  src: url(static/fonts/MuseoModerno-VariableFont_wght.ttf) format("truetype");
-}
+  /* MuseoModern Family */
 
-@font-face {
-  font-family: Archivo;
-  src: url(static/fonts/Archivo-VariableFont_wdth\,wght.ttf) format("truetype");
-}
+    @font-face {
+      font-family: MuseoModerno;
+      src: url(static/fonts/MuseoModerno-VariableFont_wght.ttf);
+    }
+
+  /* Archivo Family */
+
+    @font-face {
+      font-family: Archivo;
+      src: url(static/fonts/Archivo-VariableFont_wdth\,wght.ttf);
+    }
 
 /* Fonts End */
 
@@ -31,20 +35,27 @@ body {
 
 /* Navbar Start */
 
-  .navbar {
-    list-style-type: none;
-    position: fixed;
-    width: 100%;
-    background-color: rgba(230, 230, 230, 0.5);
-  }
-  
+.navbar {
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(230, 230, 230, 0.5);
+  display: flexbox;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .navbar .logo a{
   float: left;
   font-family: MuseoModerno;
-  display: block;
+  font-size: 25px;
   color: #4D8DF0;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
@@ -54,22 +65,23 @@ body {
 
   .navbar .menu li {
     list-style: none;
-    display: inline-block;
     float: right;
-    font-family: MuseoModerno, Bold;
+    font-family: MuseoModerno;
+    font-size: 15px;
+    display: inline-block;
   }
   
   .navbar .menu li a {
     display: block;
     color: #f8ac9c;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 10px;
     text-decoration: none;
   }
 
   .navbar .menu li a:hover{
     color: #F05839;
-    font-family: MuseoModerno, Bold;
+    font-family: MuseoModerno;
   }
   
   #home:target, #services:target, #about:target, #projects:target, #contact:target{
