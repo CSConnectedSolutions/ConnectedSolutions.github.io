@@ -1,34 +1,83 @@
-body {
-    background-color: white;
-  }
+/* Fonts Start */
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  border-radius: 5px;
+@font-face {
+  font-family: MuseoModerno;
+  src: url(static/fonts/MuseoModerno-VariableFont_wght.ttf) format("truetype");
 }
 
-/* Style the topnav links */
-.topnav a {
+@font-face {
+  font-family: Archivo;
+  src: url(static/fonts/Archivo-VariableFont_wdth\,wght.ttf) format("truetype");
+}
+
+/* Fonts End */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.margin {
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+  }
+
+/* Navbar Start */
+
+  .navbar {
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(230, 230, 230, 0.5);
+  }
+  
+.navbar .logo a{
   float: left;
+  font-family: MuseoModerno;
   display: block;
-  color: #f2f2f2;
+  color: #4D8DF0;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.navbar .logo a span{
+  color: #F05839;
 }
 
-  * {
-    box-sizing: border-box;
+  .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    font-family: MuseoModerno, Bold;
   }
   
+  .navbar .menu li a {
+    display: block;
+    color: #a6c6f8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar .menu li a:hover{
+    color: #a6c6f8;
+    font-family: MuseoModerno, Bold;
+  }
+  
+  #home:target, #services:target, #about:target, #projects:target, #contact:target{
+    color: #4D8DF0;
+  }
+  
+/* Navbar End */
+
   .container {
     margin: 20px;
     padding: 20px;
@@ -48,7 +97,7 @@ body {
     padding: 20px;
   }
 
-  /* 100  */
+  /* 100 full area */
   .full-100 {
     width: 100%;
     padding: 20px;
