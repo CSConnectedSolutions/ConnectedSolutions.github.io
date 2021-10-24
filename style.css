@@ -43,6 +43,7 @@ body {
   display: flexbox;
   padding-top: 1px;
   padding-bottom: 1px;
+  box-shadow: 0px 1px 6px slategray;
 }
 
 .navbar .max-width {
@@ -54,7 +55,7 @@ body {
 .navbar .logo a {
   float: left;
   font-family: MuseoModerno;
-  font-size: 37.5px;
+  font-size: 35px;
   color: #4D8DF0;
   text-decoration: none;
 }
@@ -67,7 +68,7 @@ body {
     list-style: none;
     float: right;
     font-family: MuseoModerno;
-    font-size: 22.5px;
+    font-size: 18px;
   }
   
   .navbar .menu li a {
