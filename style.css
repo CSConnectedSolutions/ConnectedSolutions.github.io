@@ -39,7 +39,7 @@ body {
   list-style-type: none;
   position: fixed;
   width: 100%;
-  background-color: rgba(230, 230, 230, 1);
+  background-color:	#fcfcfc;
   display: flexbox;
   padding-top: 1px;
   padding-bottom: 1px;
