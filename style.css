@@ -31,6 +31,9 @@
 body {
     background-color: white;
     margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
   }
 
 /* Navbar Start */
@@ -105,6 +108,29 @@ body {
   }
 
 /* Navbar End */
+
+/* Particles Start */
+
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#intro {
+  position: absolute;
+  text-align: center;
+  background-size: cover;
+}
+
+.home {
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    min-height: 500px;
+}
+
+/* Particles End */
 
   .container {
     margin: 20px;
