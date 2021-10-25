@@ -108,6 +108,18 @@ body {
     color: #4D8DF0;
   }
 
+  .navbar-mobile {
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    background-color:	rgba(252, 252, 252, .5);
+    backdrop-filter: blur(3.5px);
+    display: flexbox;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0px 1px 6px slategray;
+  }
+
 /* Navbar End */
 
 /* Particles Start */
