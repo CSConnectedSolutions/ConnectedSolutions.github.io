@@ -185,13 +185,13 @@ body {
   }
   
   /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 1000px) {
 
-    .navbar-mobile {
+    .navbar-mobile{
       display: flexbox;
     }
 
-    .navbar {
+    .navbar{
       display: none;
     }
 
