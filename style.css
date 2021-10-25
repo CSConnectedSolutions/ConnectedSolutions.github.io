@@ -42,7 +42,8 @@ body {
   list-style-type: none;
   position: fixed;
   width: 100%;
-  background-color:	#fcfcfc;
+  background-color:	rgba(252, 252, 252, .5);
+  backdrop-filter: blur(3.5px);
   display: flexbox;
   padding-top: 1px;
   padding-bottom: 1px;
