@@ -184,7 +184,7 @@ body {
     padding: 20px;
   }
   
-  /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
+  /* Add responsiveness */
   @media screen and (max-width: 1000px) {
 
     .navbar-mobile{
