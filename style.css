@@ -108,6 +108,10 @@ body {
     color: #4D8DF0;
   }
 
+/* Navbar End */
+
+/* Mobile Nav START */
+
   .navbar-mobile {
     list-style-type: none;
     position: fixed;
@@ -170,7 +174,7 @@ body {
       font-family: MuseoModerno;
     }
 
-/* Navbar End */
+/* Mobile Nav End */
 
 /* Particles Start */
 
