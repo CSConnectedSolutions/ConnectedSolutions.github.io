@@ -149,13 +149,13 @@ body {
     font-size: 54px;
   }
     
-    .navbar-mobile .menu li a {
-      display: block;
-      color: #f8ac9c;
-      text-align: center;
-      padding: 0px 12px;
-      text-decoration: none;
-    }
+  .navbar-mobile .menu li a {
+    display: block;
+    color: #f8ac9c;
+    text-align: center;
+    padding: 0px 36px;
+    text-decoration: none;
+  }
   
     .navbar-mobile .menu li a span {
       display: block;
@@ -307,5 +307,15 @@ body {
       display: none;
     }
 
+
+  }
+
+   /* Add responsiveness */
+   @media screen and (min-width: 1000px) {
+
+    .navbar-mobile {
+      display: none;
+
+    }
 
   }
