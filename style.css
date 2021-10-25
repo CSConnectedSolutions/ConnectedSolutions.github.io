@@ -50,18 +50,6 @@ body {
   box-shadow: 0px 1px 6px slategray;
 }
 
-.navbar-mobile {
-  list-style-type: none;
-  position: fixed;
-  width: 100%;
-  background-color:	rgba(252, 252, 252, .5);
-  backdrop-filter: blur(3.5px);
-  display: none;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  box-shadow: 0px 1px 6px slategray;
-}
-
 .navbar .max-width {
   display: flex;
   align-items: center;
@@ -186,13 +174,6 @@ body {
   
   /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
   @media screen and (max-width: 640px) {
-    .column-66,
-    .column-33 {
-      width: 100%;
-      text-align: center;
-    }
-
-    /* Navbar Start */
 
     .navbar-mobile {
       list-style-type: none;
@@ -207,15 +188,7 @@ body {
     }
 
     .navbar {
-      list-style-type: none;
-      position: fixed;
-      width: 100%;
-      background-color:	rgba(252, 252, 252, .5);
-      backdrop-filter: blur(3.5px);
       display: none;
-      padding-top: 1px;
-      padding-bottom: 1px;
-      box-shadow: 0px 1px 6px slategray;
     }
 
 
