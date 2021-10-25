@@ -142,12 +142,12 @@ body {
     color: #F05839;
   }
   
-    .navbar-mobile .menu li {
-      list-style: none;
-      float: right;
-      font-family: MuseoModerno;
-      font-size: 18px;
-    }
+  .navbar-mobile .menu li {
+    list-style: none;
+    float: right;
+    font-family: MuseoModerno;
+    font-size: 54px;
+  }
     
     .navbar-mobile .menu li a {
       display: block;
@@ -275,7 +275,7 @@ body {
         list-style: none;
         float: right;
         font-family: MuseoModerno;
-        font-size: 18px;
+        font-size: 54px;
       }
       
       .navbar-mobile .menu li a {
