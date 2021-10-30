@@ -184,26 +184,39 @@ body {
 
 /* Mobile Nav End */
 
-/* Particles Start */
+/* Home Section  */
 
+/* Particles Start */
 #particles {
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  width: 100vw;
+  /* height: 100%; */
+  height: 100vh;
+  min-height: 500px;
   overflow: hidden;
+  display: flex;
+  background-size: cover;
 }
 
 #intro {
   position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 0 20px;
+  width: 100%;
   text-align: center;
-  background-size: cover;
 }
 
-.home {
-    display: flex;
-    background-size: cover;
-    height: 100vh;
-    min-height: 500px;
+.main .h1{
+  text-transform: uppercase;
+  font-size: 85px;
+  font-weight: 700;
+  letter-spacing: 0.015em;
 }
+
+
+
+
 
 /* Particles End */
 
