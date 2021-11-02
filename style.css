@@ -8,6 +8,10 @@
   src: url(static/fonts/Archivo-VariableFont_wdth\,wght.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -71,11 +75,11 @@
     color: #4D8DF0;
 }
 
-#services:target, #about:target, #projects:target, #contact:target{
+#services-nav:target, #about-nav:target, #projects-nav:target, #contact-nav:target{
   color: #F05839;
 }
 
-#home:target span{
+#home-nav:target span{
   color: #4D8DF0;
 }
 
