@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&family=Ubuntu:wght@400;500;700&display=swap');
+@font-face {
+  font-family: MuseoModerno;
+  src: url(static/fonts/MuseoModerno-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Archivo;
+  src: url(static/fonts/Archivo-VariableFont_wdth\,wght.ttf);
+}
 
 *{
     margin: 0;
@@ -15,14 +23,11 @@
 .navbar{
     position: fixed;
     width: 100%;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    /* background: red; */
-    background-color:	rgba(252, 252, 252, .5); 
-    backdrop-filter: blur(3.5px);
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background-color:	rgba(252, 252, 252, 1); 
     box-shadow: 0px 1px 6px slategray;
-
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'MuseoModerno', sans-serif;
     transition: all 0.3s ease;
     z-index: 999;
 }
@@ -36,7 +41,7 @@
 .navbar .logo a{
     color: #4D8DF0;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: normal;
 }
 
 .navbar .logo span{
@@ -49,21 +54,31 @@
 }
 .navbar .menu li a{
     color: #f8ac9c;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a span{
-    color: lightskyblue;
+    color: #a6c6f8;
+    transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover{
-    color: #4D8DF0;
+    color: #F05839;
 }
 .navbar .menu li a span:hover{
     color: #4D8DF0;
 }
+
+#services:target, #about:target, #projects:target, #contact:target{
+  color: #F05839;
+}
+
+#home:target span{
+  color: #4D8DF0;
+}
+
 /*home styling*/
 .home{
     display: grid;
