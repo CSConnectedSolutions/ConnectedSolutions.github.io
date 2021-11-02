@@ -23,31 +23,24 @@
   text-decoration: none;
 }
 
-.margin {
+.max-width{   /*USED FOR ALL LEFT-RIGHT FORMATTING TO KEEP IT THE SAME */
+  /* max-width: 1300px; */
   margin-left: 12.5vw;
   margin-right: 12.5vw;
+  /* margin: auto; */
 }
-
-body {
-    background-color: white;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
 
 /* Navbar Start */
 
 .navbar {
-  list-style-type: none;
   position: fixed;
   width: 100%;
-  background-color:	rgba(252, 252, 252, .5);
+  background-color:	rgba(252, 252, 252, .5); 
   backdrop-filter: blur(3.5px);
-  display: flexbox;
   padding-top: 1px;
   padding-bottom: 1px;
   box-shadow: 0px 1px 6px slategray;
+  z-index: 999;
 }
 
 .navbar .max-width {
@@ -57,154 +50,40 @@ body {
 }
 
 .navbar .logo a {
-  float: left;
   font-family: MuseoModerno;
   font-size: 35px;
   color: #4D8DF0;
-  text-decoration: none;
 }
 
 .navbar .logo a span {
   color: #F05839;
 }
 
-  .navbar .menu li {
-    list-style: none;
-    float: right;
-    font-family: MuseoModerno;
-    font-size: 18px;
-  }
+.navbar .menu li {
+  list-style: none;
+  font-family: MuseoModerno;
+  font-size: 18px;
+  display: inline-block;
+}
   
-  .navbar .menu li a {
-    display: block;
-    color: #f8ac9c;
-    text-align: center;
-    padding: 0px 12px;
-    text-decoration: none;
-  }
-
-  .navbar .menu li a span {
-    display: block;
-    color: #a6c6f8;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .navbar .menu li a span:hover {
-    color: #4D8DF0;
-    font-family: MuseoModerno;
-  }
-
-  .navbar .menu li a:hover{
-    color: #F05839;
-    font-family: MuseoModerno;
-  }
-
-  #services:target, #about:target, #projects:target, #contact:target{
-    color: #F05839;
-  }
-  
-  #home:target span{
-    color: #4D8DF0;
-  }
+.navbar .menu li a {
+  color: #f8ac9c;
+  text-align: center;
+  margin-left: 12px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
 /* Navbar End */
 
-/* Mobile Nav START */
+/* Main Section  */
 
-  .navbar-mobile {
-    list-style-type: none;
-    position: fixed;
-    width: 100%;
-    background-color:	rgba(252, 252, 252, .5);
-    backdrop-filter: blur(3.5px);
-    display: flexbox;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    box-shadow: 0px 1px 6px slategray;
-  }
-
-  .navbar-mobile .max-width {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .navbar-mobile .logo a {
-    float: left;
-    font-family: MuseoModerno;
-    font-size: 105px;
-    color: #4D8DF0;
-    text-decoration: none;
-  }
-  
-  .navbar-mobile .logo a span {
-    color: #F05839;
-  }
-  
-  .navbar-mobile .menu li {
-    list-style: none;
-    float: right;
-    font-family: MuseoModerno;
-    font-size: 54px;
-  }
-    
-  .navbar-mobile .menu li a {
-    display: block;
-    color: #f8ac9c;
-    text-align: center;
-    padding: 0px 30px;
-    text-decoration: none;
-  }
-  
-    .navbar-mobile .menu li a span {
-      display: block;
-      color: #a6c6f8;
-      text-align: center;
-      text-decoration: none;
-    }
-  
-    .navbar-mobile .menu li a span:hover {
-      color: #4D8DF0;
-      font-family: MuseoModerno;
-    }
-  
-    .navbar-mobile .menu li a:hover{
-      color: #F05839;
-      font-family: MuseoModerno;
-    }
-
-    #services:target, #about:target, #projects:target, #contact:target{
-      color: #F05839;
-    }
-    
-    #home:target span{
-      color: #4D8DF0;
-    }
-
-/* Mobile Nav End */
-
-/* Home Section  */
-
-/* Particles Start */
-#particles {
-  /* width: 100%; */
-  width: 100vw;
-  /* height: 100%; */
-  height: 100vh;
-  min-height: 500px;
-  overflow: hidden;
-  display: flex;
-  background-size: cover;
-}
-
-#intro {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  padding: 0 20px;
-  width: 100%;
-  text-align: center;
+.main .max-width{
+  /* margin: auto 0 auto 40px; */
+  margin-top: 20%;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;   
 }
 
 .main .h1{
@@ -214,204 +93,3 @@ body {
   letter-spacing: 0.015em;
 }
 
-
-
-
-
-/* Particles End */
-
-  .container {
-    margin: 20px;
-    padding: 20px;
-  }
-  
-  /* Clear floats */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both
-  }
-  
-  /* 2/3 column */
-  .column-66 {
-    float: left;
-    width: 66.66666%;
-    padding: 20px;
-  }
-
-  /* 100 full area */
-  .full-100 {
-    width: 100%;
-    padding: 20px;
-  }
-
-  /* 1/2 column */
-  .column-50 {
-    float: left;
-    width: 50%;
-    padding: 20px;
-  }
-  
-  /* 1/3 column */
-  .column-33 {
-    float: left;
-    width: 33.33333%;
-    padding: 20px;
-  }
-  
-  /* Add responsiveness */
-  @media screen and (max-width: 1000px) {
-
-    .navbar{
-      display: none;
-    }
-
-    .navbar-mobile {
-      list-style-type: none;
-      position: fixed;
-      width: 100%;
-      background-color:	rgba(252, 252, 252, .5);
-      backdrop-filter: blur(3.5px);
-      display: flexbox;
-      padding-top: 1px;
-      padding-bottom: 1px;
-      box-shadow: 0px 1px 6px slategray;
-    }
-
-    .navbar-mobile .max-width {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    
-    .navbar-mobile .logo a {
-      float: left;
-      font-family: MuseoModerno;
-      font-size: 105px;
-      color: #4D8DF0;
-      text-decoration: none;
-    }
-    
-    .navbar-mobile .logo a span {
-      color: #F05839;
-    }
-    
-      .navbar-mobile .menu li {
-        list-style: none;
-        float: right;
-        font-family: MuseoModerno;
-        font-size: 54px;
-      }
-      
-      .navbar-mobile .menu li a {
-        display: block;
-        color: #f8ac9c;
-        text-align: center;
-        padding: 0px 30px;
-        text-decoration: none;
-      }
-    
-      .navbar-mobile .menu li a span {
-        display: block;
-        color: #a6c6f8;
-        text-align: center;
-        text-decoration: none;
-      }
-    
-      .navbar-mobile .menu li a span:hover {
-        color: #4D8DF0;
-        font-family: MuseoModerno;
-      }
-    
-      .navbar-mobile .menu li a:hover{
-        color: #F05839;
-        font-family: MuseoModerno;
-      }
-
-      #servicesm:target, #aboutm:target, #projectsm:target, #contactm:target{
-        color: #F05839;
-      }
-      
-      #homem:target span{
-        color: #4D8DF0;
-      }
-  }
-
-   /* Add responsiveness */
-   @media screen and (min-width: 1000px) {
-
-    .navbar-mobile {
-      display: none;
-
-    }
-
-    .navbar {
-      list-style-type: none;
-      position: fixed;
-      width: 100%;
-      background-color:	rgba(252, 252, 252, .5);
-      backdrop-filter: blur(3.5px);
-      display: flexbox;
-      padding-top: 1px;
-      padding-bottom: 1px;
-      box-shadow: 0px 1px 6px slategray;
-    }
-    
-    .navbar .max-width {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    
-    .navbar .logo a {
-      float: left;
-      font-family: MuseoModerno;
-      font-size: 35px;
-      color: #4D8DF0;
-      text-decoration: none;
-    }
-    
-    .navbar .logo a span {
-      color: #F05839;
-    }
-    
-      .navbar .menu li {
-        list-style: none;
-        float: right;
-        font-family: MuseoModerno;
-        font-size: 18px;
-      }
-      
-      .navbar .menu li a {
-        display: block;
-        color: #f8ac9c;
-        text-align: center;
-        padding: 0px 12px;
-        text-decoration: none;
-      }
-    
-      .navbar .menu li a span {
-        display: block;
-        color: #a6c6f8;
-        text-align: center;
-        text-decoration: none;
-      }
-    
-      .navbar .menu li a span:hover {
-        color: #4D8DF0;
-        font-family: MuseoModerno;
-      }
-    
-      .navbar .menu li a:hover{
-        color: #F05839;
-        font-family: MuseoModerno;
-      }
-    
-      #services:target, #about:target, #projects:target, #contact:target{
-        color: #F05839;
-      }
-      
-      #home:target span{
-        color: #4D8DF0;
-      }
-  }
