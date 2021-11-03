@@ -93,7 +93,7 @@
   }
   
   .home .max-width{
-      margin-top: 30vh;
+      margin-top: 60vh;
   }
   
   .home .home-content{
@@ -102,7 +102,7 @@
   }
   .home .home-content .text-1{
       font-size: 25px;
-      font-family: MuseoModerno;
+      font-family: Archivo;
       font-weight: 100;
   }
   .home .home-content .text-2{
@@ -113,21 +113,27 @@
   
 /* moving text  */
 .home .home-content .console-container {
-    font-size:4em;
+    font-size: 100px;
+    font-family: MuseoModerno;
+    font-weight: bold;
     color:white;
     height: 150px;
 }
+
   /* Creates three equal columns that floats next to each other */
 .home .home-content .column {
-    margin-top: 80px;
+    margin-top: 150px;
     float: left;
     width: 33.33%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
 }
 
-.home .home-content .column .h2{
-    text-align: center;
+.home .home-content .column h2{
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: Archivo;
+    font-weight: 100;
 }
   
   /* Clear floats after the columns */
