@@ -1,151 +1,162 @@
 @font-face {
-  font-family: MuseoModerno;
-  src: url(static/fonts/MuseoModerno-VariableFont_wght.ttf);
-}
-
-@font-face {
-  font-family: Archivo;
-  src: url(static/fonts/Archivo-VariableFont_wdth\,wght.ttf);
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-.max-width{   /*USED FOR ALL LEFT-RIGHT FORMATTING TO KEEP IT THE SAME */
-    /* max-width: 1300px; */
-    padding-left: 190px;
-    padding-right: 190px;
-    /* margin: auto; */
-}
-.navbar{
-    position: fixed;
-    width: 100%;
-    padding-bottom: 4px;
-    padding-top: 4px;
-    background-color:	rgba(252, 252, 252, 1); 
-    box-shadow: 0px 1px 6px slategray;
-    font-family: 'MuseoModerno', sans-serif;
-    transition: all 0.3s ease;
-    z-index: 999;
-}
-
-.navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar .logo a{
-    color: #4D8DF0;
-    font-size: 35px;
-    font-weight: normal;
-}
-
-.navbar .logo span{
-    color: #F05839;
-}
-
-.navbar .menu li {
-    list-style: none;
-    display: inline-block;
-}
-.navbar .menu li a{
-    color: #f8ac9c;
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 25px;
-    transition: color 0.3s ease;
-}
-.navbar .menu li a span{
-    color: #a6c6f8;
-    transition: color 0.3s ease;
-}
-
-.navbar .menu li a:hover{
-    color: #F05839;
-}
-.navbar .menu li a span:hover{
-    color: #4D8DF0;
-}
-
-#services-nav:target, #about-nav:target, #projects-nav:target, #contact-nav:target{
-  color: #F05839;
-}
-
-#home-nav:target span{
-  color: #4D8DF0;
-}
-
-/*home styling*/
-.home{
-    display: grid;
-    height: 100vh;
-    color: white;
-    min-height: 500px;
-    /* background-color: blue; */
-}
-
-.home .max-width{
-    margin-top: 15%;
-}
-
-.home .home-content{
-    color: #1f2022;
-    text-align: center;
-}
-.home .home-content .text-1{
-    font-size: 25px;
     font-family: MuseoModerno;
-    font-weight: 100;
+    src: url(static/fonts/MuseoModerno-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: Archivo;
+    src: url(static/fonts/Archivo-VariableFont_wdth\,wght.ttf);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+  }
+  .max-width{   /*USED FOR ALL LEFT-RIGHT FORMATTING TO KEEP IT THE SAME */
+      /* max-width: 1300px; */
+      padding-left: 190px;
+      padding-right: 190px;
+      /* margin: auto; */
+  }
+  .navbar{
+      position: fixed;
+      width: 100%;
+      padding-bottom: 4px;
+      padding-top: 4px;
+      background-color:	rgba(252, 252, 252, 1); 
+      box-shadow: 0px 1px 6px slategray;
+      font-family: 'MuseoModerno', sans-serif;
+      transition: all 0.3s ease;
+      z-index: 999;
+  }
+  
+  .navbar .max-width{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .navbar .logo a{
+      color: #4D8DF0;
+      font-size: 35px;
+      font-weight: normal;
+  }
+  
+  .navbar .logo span{
+      color: #F05839;
+  }
+  
+  .navbar .menu li {
+      list-style: none;
+      display: inline-block;
+  }
+  .navbar .menu li a{
+      color: #f8ac9c;
+      font-size: 20px;
+      font-weight: 400;
+      margin-left: 25px;
+      transition: color 0.3s ease;
+  }
+  .navbar .menu li a span{
+      color: #a6c6f8;
+      transition: color 0.3s ease;
+  }
+  
+  .navbar .menu li a:hover{
+      color: #F05839;
+  }
+  .navbar .menu li a span:hover{
+      color: #4D8DF0;
+  }
+  
+  #services-nav:target, #about-nav:target, #projects-nav:target, #contact-nav:target{
+    color: #F05839;
+  }
+  
+  #home-nav:target span{
+    color: #4D8DF0;
+  }
+  
+  /*home styling*/
+  .home{
+      display: grid;
+      height: 100vh;
+      color: white;
+      min-height: 500px;
+      /* background-color: blue; */
+  }
+  
+  .home .max-width{
+      margin-top: 30vh;
+  }
+  
+  .home .home-content{
+      color: #1f2022;
+      text-align: center;
+  }
+  .home .home-content .text-1{
+      font-size: 25px;
+      font-family: MuseoModerno;
+      font-weight: 100;
+  }
+  .home .home-content .text-2{
+      font-size: 60px;
+      font-family: MuseoModerno;
+      font-weight: normal;
+  }
+  
+/* moving text  */
+.home .home-content .console-container {
+    font-size:4em;
+    color:white;
+    height: 150px;
 }
-.home .home-content .text-2{
-    font-size: 60px;
-    font-family: MuseoModerno;
-    font-weight: normal;
-}
-/* Creates three equal columns that floats next to each other */
+  /* Creates three equal columns that floats next to each other */
 .home .home-content .column {
     margin-top: 80px;
     float: left;
     width: 33.33%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
-  }
+}
 
-/* Clear floats after the columns */
+.home .home-content .column .h2{
+    text-align: center;
+}
+  
+  /* Clear floats after the columns */
 .home .home-content .row:after {
     content: "";
     display: table;
     clear: both;
-  }
-
-/* about me section  */
-.about{
-    margin-top: 85px;
-    margin-bottom: 40px;
-    font-family: 'Poppins', sans-serif;
 }
-
-/* trying particles below  */
-#particles {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    
+  
+  /* about me section  */
+  .about{
+      margin-top: 85px;
+      margin-bottom: 40px;
+      font-family: 'Poppins', sans-serif;
   }
   
-  #intro {
-    position: absolute;
-    left: 0;
-    top: 25%;
-    padding: 0 20px;
-    width: 100%; 
-    text-align: center;
-  }
+  /* trying particles below  */
+  #particles {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      
+    }
+    
+    #intro {
+      position: absolute;
+      left: 0;
+      top: 25%;
+      padding: 0 20px;
+      width: 100%; 
+      text-align: center;
+    }
