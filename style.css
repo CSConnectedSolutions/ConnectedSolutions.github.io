@@ -161,19 +161,16 @@
     }
 
 
-/* about me section  */
+/* Services section  */
 .services{
     margin-top: 85px;
     margin-bottom: 40px;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-
-}
-
-.services .max-width .h1{
+    font-family: 'MuseoModerno', sans-serif;
     text-align: left;
 }
-
+.services .max-width h1{
+    font-size: 35px;
+}
 .services .max-width .column{
     margin-top: 50px;
     float: left;
@@ -182,15 +179,40 @@
     border: solid black;
     height: 300px; /* Should be removed. Only for demonstration */
 }
-
 .services .max-width .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
+/* About Us section  */
 
+.about{
+    margin-top: 85px;
+    margin-bottom: 40px;
+    font-family: 'MuseoModerno', sans-serif;
+}
 
+.about .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+    border: solid black;
+
+  }
+  
+.about .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.about h1{
+    font-size: 35px;
+    text-align: right;
+
+}
 
 
 
