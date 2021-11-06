@@ -143,13 +143,6 @@
     clear: both;
 }
   
-  /* about me section  */
-  .about{
-      margin-top: 85px;
-      margin-bottom: 40px;
-      font-family: 'Poppins', sans-serif;
-  }
-  
   /* trying particles below  */
   #particles {
       width: 100%;
@@ -166,3 +159,45 @@
       width: 100%; 
       text-align: center;
     }
+
+
+/* about me section  */
+.services{
+    margin-top: 85px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
+}
+
+.services .max-width .h1{
+    text-align: left;
+}
+
+.services .max-width .column{
+    margin-top: 50px;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    border: solid black;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.services .max-width .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
