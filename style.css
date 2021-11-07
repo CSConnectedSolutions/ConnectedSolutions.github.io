@@ -165,12 +165,23 @@
 .services{
     margin-top: 85px;
     margin-bottom: 40px;
-    font-family: 'MuseoModerno', sans-serif;
     text-align: left;
 }
 .services .max-width h1{
     font-size: 35px;
+    font-family: 'MuseoModerno', sans-serif;
 }
+
+.services .max-width h2{
+    font-family: 'Archivo';
+    font-weight: bold;
+}
+
+.services .max-width p{
+    font-family: 'Archivo';
+    font-weight: light;
+}
+
 .services .max-width .column{
     margin-top: 50px;
     float: left;
