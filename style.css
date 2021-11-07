@@ -186,8 +186,7 @@
     margin-top: 50px;
     float: left;
     width: 33.33%;
-    padding: 10px;
-    border: solid black;
+    padding: 20px;
     height: 300px; /* Should be removed. Only for demonstration */
 }
 .services .max-width .row:after {
