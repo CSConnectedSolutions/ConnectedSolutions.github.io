@@ -18,6 +18,15 @@
       box-sizing: border-box;
       text-decoration: none;
   }
+
+  .fab.fa-instagram-square {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
   .max-width{   /*USED FOR ALL LEFT-RIGHT FORMATTING TO KEEP IT THE SAME */
       /* max-width: 1300px; */
       padding-left: 190px;
