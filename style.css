@@ -172,16 +172,28 @@
 
 
 /* Services section  */
+.services_anchor {
+    display: block;
+    height: 50px;
+    margin-top: -50px;
+    visibility: hidden;
+}
+
 .services{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 40px;
     text-align: left;
 }
-.services .max-width h1{
+.services h1{
     font-size: 50px;
     font-family: 'MuseoModerno', sans-serif;
+    background-color:#F05839;
+    color: white;
+    /* border: solid black 2px; */
+    padding-left: 190px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-
 .services .max-width h2{
     font-size: 30px;
     font-family: 'Archivo';
