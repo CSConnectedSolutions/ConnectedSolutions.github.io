@@ -37,13 +37,17 @@
   .navbar{
       position: fixed;
       width: 100%;
-      padding-bottom: 4px;
-      padding-top: 4px;
+      padding-bottom: 10px;
+      padding-top: 10px;
       background-color:	rgba(252, 252, 252, 1); 
       box-shadow: 0px 1px 6px slategray;
       font-family: 'MuseoModerno', sans-serif;
       transition: all 0.3s ease;
       z-index: 999;
+  }
+  .navbar.sticky{
+    padding-bottom: 4px;
+        padding-top: 4px;
   }
   
   .navbar .max-width{
@@ -172,16 +176,28 @@
 
 
 /* Services section  */
+.services_anchor {
+    display: block;
+    height: 50px;
+    margin-top: -50px;
+    visibility: hidden;
+}
+
 .services{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 40px;
     text-align: left;
 }
-.services .max-width h1{
+.services h1{
     font-size: 50px;
     font-family: 'MuseoModerno', sans-serif;
+    background-color:#F05839;
+    color: white;
+    /* border: solid black 2px; */
+    padding-left: 190px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-
 .services .max-width h2{
     font-size: 30px;
     font-family: 'Archivo';
@@ -220,21 +236,53 @@
     width: 50%;
     padding: 10px;
     height: 300px; 
-    border: solid black;
+    /* border: solid black; */
 
   }
   
-.about .row:after {
-    content: "";
-    display: table;
-    clear: both;
+.about .row{
+    display: flex;
   }
 
-.about h1{
+.about .head{
     font-size: 50px;
     text-align: left;
-
 }
+.about .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+.about .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+.about button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+.about a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+.about button:hover, a:hover {
+    opacity: 0.7;
+  }
 
 
 

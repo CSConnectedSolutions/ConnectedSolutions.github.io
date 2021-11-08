@@ -18,7 +18,7 @@
       <div class="logo"><a href="#home">Connected<span>Solutions</span></a></div>
       <ul class="menu">
         <li><a href ="#home" id="home-nav"><span><i class="fas fa-home" style="padding-right: 7px;"></i>Home</span></a></li>
-        <li><a href ="#services" id="services-nav"><i class="fas fa-code-branch" style="padding-right: 7px;"></i>Services</a></li>
+        <li><a href ="#s_link" id="services-nav"><i class="fas fa-code-branch" style="padding-right: 7px;"></i>Services</a></li>
         <!-- <li><a href ="#projects" id="projects-nav"><i class="fas fa-folder-open" style="padding-right: 7px;"></i>Projects</a></li> -->
         <li><a href ="#about" id="about-nav"><i class="fas fa-user-circle" style="padding-right: 7px;"></i>About</a></li>
         <li><a href ="#contact" id="contact-nav"><i class="fas fa-phone-alt" style="padding-right: 7px;"></i>Contact</a></li>
@@ -61,10 +61,10 @@
 </section>
 
 <!-- Services section  -->
-<hr>
+<div id="s_link"  class="services_anchor"></div>
 <section class="services" id="services">  
+  <h1><i class="fas fa-code-branch" style="padding-right: 20px;"></i>Services</h1>
   <div class="max-width">
-      <h1><i class="fas fa-code-branch" style="padding-right: 20px;"></i>Services</h1>
     <div class="row">
             <div class="column">
                 <h2 style="color: #71a4f3;"><i class="fas fa-pencil-ruler fa-lg" style="padding-right: 20px; vertical-align: middle;"></i>Web Design & Support</h2>
@@ -103,13 +103,35 @@
 
 <section class="about" id="about">
   <div class="max-width">
-    <h1><i class="fas fa-user-circle" style="padding-right: 20px;"></i>About</h1>
+    <h1 class="head"><i class="fas fa-user-circle" style="padding-right: 20px;"></i>About</h1>
     <div class="row">
       <div class="column">
-        <h1>About us</h1>
+        <div class="card">
+          <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+          <h1>Jake Chill</h1>
+          <p class="title">CEO</p>
+          <p>FLorida State University</p>
+          <div style="margin: 24px 0;">
+            <a href="#"><i class="fa fa-twitter"></i></a>  
+            <a href="#"><i class="fa fa-linkedin"></i></a>  
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+          </div>
+          <p><button>Contact</button></p>
+        </div>
       </div>
       <div class="column">
-        <h1>About us again</h1>
+        <div class="card">
+          <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+          <h1>Tomas Munoz-Moxey</h1>
+          <p class="title">CTO</p>
+          <p>FLorida State University</p>
+          <div style="margin: 24px 0;">
+            <a href="#"><i class="fa fa-twitter"></i></a>  
+            <a href="#"><i class="fa fa-linkedin"></i></a>  
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+          </div>
+          <p><button>Contact</button></p>
+        </div>
       </div>
     </div>
     
@@ -120,5 +142,6 @@
 
 
 <script  src="js/moving.js"></script>
+<script  src="js/script.js"></script>
 </body>
 </html>
