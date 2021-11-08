@@ -17,6 +17,7 @@
       padding: 0;
       box-sizing: border-box;
       text-decoration: none;
+      line-height: 1.5em;
   }
 
   .fab.fa-instagram-square {
