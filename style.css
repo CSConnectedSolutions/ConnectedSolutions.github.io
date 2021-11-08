@@ -259,7 +259,7 @@
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    font-family: 'Archivo';
 }
 .about .card img{
     width: 100%;
@@ -278,7 +278,6 @@
     color: white;
     background-color: #000;
     text-align: center;
-    cursor: pointer;
     width: 100%;
     font-size: 18px;
   }
@@ -287,10 +286,6 @@
     text-decoration: none;
     font-size: 22px;
     color: black;
-  }
-  
-.about button:hover {
-    opacity: 0.7;
   }
 
 
