@@ -254,8 +254,11 @@
     margin: auto;
     text-align: center;
     font-family: arial;
-  }
-  
+}
+.about .card img{
+    width: 100%;
+}  
+
 .about .title {
     color: grey;
     font-size: 18px;
