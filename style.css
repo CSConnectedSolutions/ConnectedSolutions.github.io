@@ -246,7 +246,13 @@
 
 .about .head{
     font-size: 50px;
-    text-align: left;
+    font-family: 'MuseoModerno', sans-serif;
+    background-color:#F05839;
+    color: white;
+    /* border: solid black 2px; */
+    padding-left: 190px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .about .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
