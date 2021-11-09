@@ -182,7 +182,6 @@
     margin-top: -50px;
     visibility: hidden;
 }
-
 .services{
     /* margin-top: 30px; */
     margin-bottom: 40px;
@@ -224,6 +223,12 @@
 
 /* About Us section  */
 
+.about_anchor {
+    display: block;
+    height: 30px;
+    margin-top: -30px;
+    visibility: hidden;
+}
 .about{
     margin-top: 30px;
     margin-bottom: 205px;
