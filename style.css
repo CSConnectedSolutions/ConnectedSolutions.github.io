@@ -104,11 +104,12 @@
       color: white;
       min-height: 500px;
       /* background-color: blue; */
+      
   }
   
   .home .max-width{
-    margin: auto;
-    top: 10%;
+    /* margin: auto; */
+    /* top: 10%; */
     position: absolute;
     width: inherit;
 }
@@ -147,7 +148,7 @@
 }
 
 .home .home-content .column h2{
-    margin-top: 25px;
+    margin-top: 10px;
     font-size: 25px;
     font-family: Archivo;
     font-weight: 100;
@@ -171,7 +172,7 @@
     #intro {
       position: absolute;
       left: 0;
-      top: 25%;
+      top: 20%;
       padding: 0 20px;
       width: 100%; 
       text-align: center;
