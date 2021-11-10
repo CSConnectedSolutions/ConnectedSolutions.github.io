@@ -103,8 +103,8 @@
       height: 100vh;
       color: white;
       min-height: 500px;
+      margin: auto;
       /* background-color: blue; */
-      
   }
   
   .home .max-width{
@@ -178,7 +178,6 @@
       text-align: center;
     }
 
-
 /* Services section  */
 .services_anchor {
     display: block;
@@ -245,6 +244,7 @@
     width: 25%;
     font-family: 'Archivo';
     font-size: 1.7vh;
+
 
     padding: 10px;
     height: 300px; 
