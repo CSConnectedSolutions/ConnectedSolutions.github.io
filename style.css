@@ -208,7 +208,7 @@
 }
 
 .services .max-width p{
-    font-size: 20px;
+    font-size: 2.2vh;
     font-family: 'Archivo';
     font-weight: light;
 }
@@ -244,6 +244,7 @@
     /* float: left; */
     width: 25%;
     font-family: 'Archivo';
+    font-size: 1.7vh;
 
     padding: 10px;
     height: 300px; 
