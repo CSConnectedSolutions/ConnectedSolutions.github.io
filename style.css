@@ -107,8 +107,10 @@
   }
   
   .home .max-width{
-      margin-top: 60vh;
-  }
+    margin: auto;
+    padding-top: 60vh;
+    width: inherit;
+}
   
   .home .home-content{
       color: #1f2022;
