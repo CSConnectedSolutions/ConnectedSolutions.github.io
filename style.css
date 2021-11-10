@@ -140,11 +140,12 @@
 
   /* Creates three equal columns that floats next to each other */
 .home .home-content .column {
-    margin-top: 150px;
+    /* margin-top: 150px; */
+    margin-top: 12.5%;
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    /* height: 300px; Should be removed. Only for demonstration */
 }
 
 .home .home-content .column h2{
@@ -187,7 +188,8 @@
 }
 .services{
     /* margin-top: 30px; */
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    margin: auto;
     text-align: left;
 }
 .services h1{
@@ -233,9 +235,15 @@
     visibility: hidden;
 }
 .about{
-    margin-top: 30px;
-    margin-bottom: 205px;
+    padding-top: 30px;
+    padding-bottom: 205px;
     font-family: 'MuseoModerno', sans-serif;
+    overflow: hidden;
+    /* need to get better solution than above */
+}
+
+.about .max-width{
+    margin: auto;
 }
 
 .about .column {
@@ -244,12 +252,9 @@
     width: 25%;
     font-family: 'Archivo';
     font-size: 1.7vh;
-
-
     padding: 10px;
     height: 300px; 
     /* border: solid black; */
-
   }
   
 .about .row{
@@ -272,6 +277,7 @@
     margin: auto;
     text-align: center;
     font-family: 'Archivo';
+    
 }
 .about .card img{
     width: 100%;

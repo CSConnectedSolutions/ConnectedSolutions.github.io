@@ -1,0 +1,7 @@
+Some bugs to fix:
+
+- font sizing on smaller devices
+- no text bleeding into other sections
+- overall need to just fix many bugs when screen size gets smaller *******
+
+*** Mobile Responsiveness ***
