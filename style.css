@@ -108,7 +108,8 @@
   
   .home .max-width{
     margin: auto;
-    padding-top: 60vh;
+    top: 10%;
+    position: absolute;
     width: inherit;
 }
   
