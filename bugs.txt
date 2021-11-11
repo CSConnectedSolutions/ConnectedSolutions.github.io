@@ -5,3 +5,7 @@ Some bugs to fix:
 - overall need to just fix many bugs when screen size gets smaller *******
 
 *** Mobile Responsiveness ***
+
+1. Create a form for potential customers to inquire through.
+2. On-scroll navbar highlight.
+3. SEO!!! PUMP THOSE NUMBERS
