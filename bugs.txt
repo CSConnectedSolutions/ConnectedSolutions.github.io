@@ -9,3 +9,5 @@ Some bugs to fix:
 1. Create a form for potential customers to inquire through.
 2. On-scroll navbar highlight.
 3. SEO!!! PUMP THOSE NUMBERS
+4. Add 1/2 space between 1/4 columns where cards are. Jake on left, T on right.
+5. Write content for "About"
