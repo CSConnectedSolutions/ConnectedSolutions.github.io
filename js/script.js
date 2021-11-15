@@ -12,7 +12,7 @@ function adjustStyle(width) {
    width = parseInt(width);
    if (width < 701) {
       $("#size-stylesheet").attr("href", "style_mobile.css");
-   } else if (width < 900) {
+   } else if (width < 1200) {
       $("#size-stylesheet").attr("href", "style_mobile.css");
    } else {
       $("#size-stylesheet").attr("href", "style.css");
