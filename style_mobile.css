@@ -1,0 +1,187 @@
+@font-face {
+    font-family: MuseoModerno;
+    src: url(static/fonts/MuseoModerno-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: Archivo;
+    src: url(static/fonts/Archivo-VariableFont_wdth\,wght.ttf);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      line-height: 1.5em;
+  }
+
+.fab.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+.max-width{
+  width: 100%;
+}
+
+/* mobile navbar styling  */
+.navbar{
+  position: fixed;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color:	rgba(252, 252, 252, 1); 
+  box-shadow: 0px 1px 6px slategray;
+  font-family: 'MuseoModerno', sans-serif;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+}
+.navbar .logo a{
+  color: #4D8DF0;
+  font-size: 15px;
+  padding-left: 15px;
+  font-weight: normal;
+}
+.navbar .logo span{
+  color: #F05839;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a{
+  color: #f8ac9c;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a span{
+  color: #a6c6f8;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+  color: #F05839;
+}
+.navbar .menu li a span:hover{
+  color: #4D8DF0;
+}
+#services-nav:target, #about-nav:target, #projects-nav:target, #contact-nav:target{
+color: #F05839;
+}
+#home-nav:target span{
+color: #4D8DF0;
+}
+
+/*home styling *****************************************************************/
+
+.home{
+  display: grid;
+  height: 100vh;
+  color: white;
+  /* min-height: 500px; */
+  margin: auto;
+  /* background-color: blue; */
+}
+
+.home .max-width{
+/* margin: auto; */
+/* top: 10%; */
+position: absolute;
+width: inherit;
+}
+
+.home .home-content{
+  color: #1f2022;
+  text-align: center;
+}
+.home .home-content .text-1{
+  font-size: 20px;
+  font-family: Archivo;
+  font-weight: 100;
+}
+.home .home-content .text-2{
+  font-size: 20px;
+  font-family: MuseoModerno;
+  font-weight: normal;
+}
+
+/* moving text  */
+.home .home-content .console-container {
+font-size: 50px;
+font-family: MuseoModerno;
+font-weight: bold;
+color:white;
+height: 150px;
+}
+
+/* Creates three equal columns that floats next to each other */
+.home .home-content .column {
+/* margin-top: 150px; */
+margin-top: 5%;
+float: left;
+width: 33.33%;
+/* padding: 10px; */
+/* height: 300px; Should be removed. Only for demonstration */
+}
+
+.home .home-content .column h2{
+margin-top: 10px;
+font-size: 20px;
+font-family: Archivo;
+font-weight: 100;
+}
+
+.home .home-content .column .hvr-grow{
+  /* size: 52px; */
+  font-size: 5px;
+}
+/* Clear floats after the columns */
+.home .home-content .row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* trying particles below  */
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+#intro {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  /* padding: 0 20px; */
+  width: 100%; 
+  text-align: center;
+}
+
+.services{
+    visibility: hidden;
+}
+
+.about{
+    visibility: hidden;
+}
+
+.contact{
+  visibility: hidden;
+}
