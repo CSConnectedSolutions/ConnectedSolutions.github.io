@@ -252,6 +252,12 @@
     font-weight: light;
 }
 
+.about .max-width h2{
+    font-size: 30px;
+    font-family: 'Archivo';
+    font-weight: normal;
+}
+
 .about .column {
     margin-top: 50px;
     /* float: left; */
