@@ -246,6 +246,12 @@
     margin: auto;
 }
 
+.about .max-width p{
+    font-size: 2.2vh;
+    font-family: 'Archivo';
+    font-weight: light;
+}
+
 .about .column {
     margin-top: 50px;
     /* float: left; */
