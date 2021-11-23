@@ -256,6 +256,15 @@
     height: 300px; 
     /* border: solid black; */
   }
+
+.about .column_bio{
+    margin-top: 50px;
+    width: 50%;
+    font-family: 'Archivo';
+    font-size: 1.7vh;
+    padding: 10px;
+    height: 300px; 
+}
   
 .about .row{
     display: flex;
@@ -324,7 +333,7 @@
     /* margin-top: 50px; */
     /* margin-bottom: 40px; */
     padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     font-family: 'Archivo';
     color: black;
     
@@ -346,7 +355,7 @@
 }
 
 .contact .column{
-    flex: 50%;
+    flex: 100%;
     padding: 10px; 
 }
 .contact .love{
@@ -357,8 +366,11 @@
     
 }
 
-
-
+#footer {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+}
 
 
 
